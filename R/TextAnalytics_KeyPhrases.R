@@ -35,7 +35,6 @@ keyPhrases.buildQueryBody = function(...){
 #'
 #' @examples
 #' keyPhrases.getKeyPhrases("yourApiKey", list(lang="zh_cht", id="", text= "今天天氣很好"),list(lang="en", id="", text= "Very  bad hotel, room was very bad smells,  shower was very bad from now I never go to westbetern hotels."))
-#' @import httr magrittr rjson
 #' @export
 keyPhrases.getKeyPhrases = function(apiKey, ...){
   listOfDocData = list(...)

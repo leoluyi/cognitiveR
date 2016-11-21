@@ -2,14 +2,17 @@
 % Please edit documentation in R/TextAnalytics_Sentiment.R
 \name{sentiment.getScores}
 \alias{sentiment.getScores}
-\title{sentiment.getScores}
+\title{Text Analytics: Sentiment}
 \usage{
 sentiment.getScores(apiKey, ...)
 }
 \description{
-https://westus.dev.cognitive.microsoft.com/docs/services/TextAnalytics.V2.0/operations/56f30ceeeda5650db055a3c7
+Text Analytics: Sentiment
 }
 \examples{
 sentiment.getScores("yourApiKey", list(lang="en", id="", text= "nice!"),list(lang="en", id="", text= "nice!"),list(lang="en", id="", text= "nice!"))
+}
+\references{
+\url{https://westus.dev.cognitive.microsoft.com/docs/services/TextAnalytics.V2.0/operations/56f30ceeeda5650db055a3c7}
 }
 

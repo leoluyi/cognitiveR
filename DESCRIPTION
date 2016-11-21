@@ -2,15 +2,16 @@ Package: cognitiveR
 Type: Package
 Title: R Package of Microsoft Cognitive API
 Version: 0.0.1
-Author: Chia-Chi Chang
-Maintainer: Chia-Chi Chang <chiachi@data-sci.info>
+Author@R: c(
+    person("Chia-Chi", "Chang", "chiachi@data-sci.info", role = c("aut", "cre"),
+    person("Yi", "Lu", "leo0650@gmail.com", role = c("ctb"))
 Description: R Package of Microsoft Cognitive API
 Encoding: UTF-8
 License: MIT
 LazyData: true
-Depends:
+Depends: R (>= 3.3.0), magrittr
+Imports:
     httr,
-    magrittr,
-    rjson,
+    jsonlite,
     uuid
 RoxygenNote: 5.0.1
